@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: initial,sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    /* background-image:linear-gradient(rgba(0,0,0,0.7),(rgba(0,0,0,0.7)),url(back.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.432),rgba(0, 0, 0, 0.432)),url(back.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+.box{
+    height: 60vh;
+    width: 25vw;
+    background-color: rgba(7, 216, 253, 0.425);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px 7px 5px 7px;
+    border-radius: 15px 0 15px 0;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+.box:hover{
+    box-shadow: -20px -8px 7px 7px #00000085;
+}
+.icon{
+    height: 50px ;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    left: 43%;
+    margin-top: -35px;
+
+}
+/* h1{
+    padding-left: 86vh;
+    padding-top: 10vh;
+    color: #fff;
+    letter-spacing: 1px;
+} */
+.box h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+    
+}
+.lika{
+    height: 25px;
+    width: 90%;
+    margin-left: 14px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: rgba(17, 247, 255, 0.295);
+    font-size: 17px;
+    border-radius: 10px 0 10px 0;
+    border: 1px solid rgba(233, 200, 200, 0.548);
+    transition: 0.5s;
+}
+.lika:hover{
+    box-shadow:-10px -5px 7px 7px #45464b62;
+} 
+.lika p{
+    color: white;
+    font-size: 12px;
+    
+    
+}
+
+.box label{
+    color: rgb(17, 10, 10);
+    font-size: 17px;
+    margin-left: 10px;
+    
+}
+button{
+    height: 30px;
+    width: 70%;
+    font-size: 20px;
+    color: #fff;
+    background-color: orange;
+    position: relative;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px 0 10px 0 ;
+    transition: 0.5s;
+
+}
+button:hover{
+    background-color: green;
+}
+.box a{
+    font-size: 14px;
+    margin-left: 99px;
+    
+}
